@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9633F2F0480F2A2193C52371 /* Pods_picaralarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189BD44DD7FF7E9EDC631D43 /* Pods_picaralarm.framework */; };
+		ED46F9461E5FEF2200EDF2ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46F9451E5FEF2200EDF2ED /* AppDelegate.swift */; };
+		ED46F94B1E5FEF2200EDF2ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED46F9491E5FEF2200EDF2ED /* Main.storyboard */; };
+		ED46F94D1E5FEF2200EDF2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED46F94C1E5FEF2200EDF2ED /* Assets.xcassets */; };
+		ED46F9501E5FEF2200EDF2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED46F94E1E5FEF2200EDF2ED /* LaunchScreen.storyboard */; };
+		ED4793E31E67E86D0034149C /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED4793E21E67E86D0034149C /* gameover.mp3 */; };
+		ED99CA351E5FF07E00D14E7F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99CA341E5FF07E00D14E7F /* Item.swift */; };
+		ED99CA371E5FF0B000D14E7F /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99CA361E5FF0B000D14E7F /* ItemsTableViewController.swift */; };
+		ED99CA391E60384E00D14E7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99CA381E60384E00D14E7F /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BEA5CB54D1D7E037868D87 /* Pods-picaralarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picaralarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-picaralarm/Pods-picaralarm.release.xcconfig"; sourceTree = "<group>"; };
+		189BD44DD7FF7E9EDC631D43 /* Pods_picaralarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picaralarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B49B9432752F33E14880F2 /* Pods-picaralarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picaralarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-picaralarm/Pods-picaralarm.debug.xcconfig"; sourceTree = "<group>"; };
+		ED46F9421E5FEF2200EDF2ED /* picaralarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picaralarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED46F9451E5FEF2200EDF2ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED46F94A1E5FEF2200EDF2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED46F94C1E5FEF2200EDF2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED46F94F1E5FEF2200EDF2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED46F9511E5FEF2200EDF2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4793E21E67E86D0034149C /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		ED99CA341E5FF07E00D14E7F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ED99CA361E5FF0B000D14E7F /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		ED99CA381E60384E00D14E7F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED46F93F1E5FEF2200EDF2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9633F2F0480F2A2193C52371 /* Pods_picaralarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B41745447CA6A2C6F7C3529F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88B49B9432752F33E14880F2 /* Pods-picaralarm.debug.xcconfig */,
+				07BEA5CB54D1D7E037868D87 /* Pods-picaralarm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA6C9EB75CF455F8F87CBFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189BD44DD7FF7E9EDC631D43 /* Pods_picaralarm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED46F9391E5FEF2100EDF2ED = {
+			isa = PBXGroup;
+			children = (
+				ED46F9441E5FEF2200EDF2ED /* picaralarm */,
+				ED46F9431E5FEF2200EDF2ED /* Products */,
+				B41745447CA6A2C6F7C3529F /* Pods */,
+				BA6C9EB75CF455F8F87CBFBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED46F9431E5FEF2200EDF2ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED46F9421E5FEF2200EDF2ED /* picaralarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED46F9441E5FEF2200EDF2ED /* picaralarm */ = {
+			isa = PBXGroup;
+			children = (
+				ED46F9451E5FEF2200EDF2ED /* AppDelegate.swift */,
+				ED46F9491E5FEF2200EDF2ED /* Main.storyboard */,
+				ED46F94C1E5FEF2200EDF2ED /* Assets.xcassets */,
+				ED46F94E1E5FEF2200EDF2ED /* LaunchScreen.storyboard */,
+				ED46F9511E5FEF2200EDF2ED /* Info.plist */,
+				ED99CA341E5FF07E00D14E7F /* Item.swift */,
+				ED99CA361E5FF0B000D14E7F /* ItemsTableViewController.swift */,
+				ED99CA381E60384E00D14E7F /* LoginViewController.swift */,
+				ED4793E21E67E86D0034149C /* gameover.mp3 */,
+			);
+			path = picaralarm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED46F9411E5FEF2200EDF2ED /* picaralarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED46F9541E5FEF2200EDF2ED /* Build configuration list for PBXNativeTarget "picaralarm" */;
+			buildPhases = (
+				B19EB480446BED46C94C1409 /* [CP] Check Pods Manifest.lock */,
+				ED46F93E1E5FEF2200EDF2ED /* Sources */,
+				ED46F93F1E5FEF2200EDF2ED /* Frameworks */,
+				ED46F9401E5FEF2200EDF2ED /* Resources */,
+				A450AFA12093171B9BA86E33 /* [CP] Embed Pods Frameworks */,
+				E2DFF770E7283EC4DF7471EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picaralarm;
+			productName = picaralarm;
+			productReference = ED46F9421E5FEF2200EDF2ED /* picaralarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED46F93A1E5FEF2100EDF2ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Chan";
+				TargetAttributes = {
+					ED46F9411E5FEF2200EDF2ED = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ED46F93D1E5FEF2100EDF2ED /* Build configuration list for PBXProject "picaralarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED46F9391E5FEF2100EDF2ED;
+			productRefGroup = ED46F9431E5FEF2200EDF2ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED46F9411E5FEF2200EDF2ED /* picaralarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED46F9401E5FEF2200EDF2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED46F9501E5FEF2200EDF2ED /* LaunchScreen.storyboard in Resources */,
+				ED4793E31E67E86D0034149C /* gameover.mp3 in Resources */,
+				ED46F94D1E5FEF2200EDF2ED /* Assets.xcassets in Resources */,
+				ED46F94B1E5FEF2200EDF2ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A450AFA12093171B9BA86E33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-picaralarm/Pods-picaralarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19EB480446BED46C94C1409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DFF770E7283EC4DF7471EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-picaralarm/Pods-picaralarm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED46F93E1E5FEF2200EDF2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED99CA391E60384E00D14E7F /* LoginViewController.swift in Sources */,
+				ED99CA351E5FF07E00D14E7F /* Item.swift in Sources */,
+				ED99CA371E5FF0B000D14E7F /* ItemsTableViewController.swift in Sources */,
+				ED46F9461E5FEF2200EDF2ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED46F9491E5FEF2200EDF2ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46F94A1E5FEF2200EDF2ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED46F94E1E5FEF2200EDF2ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED46F94F1E5FEF2200EDF2ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED46F9521E5FEF2200EDF2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED46F9531E5FEF2200EDF2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED46F9551E5FEF2200EDF2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B49B9432752F33E14880F2 /* Pods-picaralarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = picaralarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED46F9561E5FEF2200EDF2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BEA5CB54D1D7E037868D87 /* Pods-picaralarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = picaralarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED46F93D1E5FEF2100EDF2ED /* Build configuration list for PBXProject "picaralarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46F9521E5FEF2200EDF2ED /* Debug */,
+				ED46F9531E5FEF2200EDF2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED46F9541E5FEF2200EDF2ED /* Build configuration list for PBXNativeTarget "picaralarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED46F9551E5FEF2200EDF2ED /* Debug */,
+				ED46F9561E5FEF2200EDF2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED46F93A1E5FEF2100EDF2ED /* Project object */;
+}
